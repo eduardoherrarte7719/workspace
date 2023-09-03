@@ -36,7 +36,14 @@ git init
 ls
 
 ls -a
+
 code .
 
 #mostrar el estado actual del repositorio
 git status
+
+#agregar archivo a seguir (tracked)
+git add nombreArvhivo.txt
+
+git commit -m "Commitiar"
+

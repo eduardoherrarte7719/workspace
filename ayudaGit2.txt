@@ -15,3 +15,5 @@ git status
 
 #agregar archivo a seguir (tracked)
 git add nombreArvhivo.txt
+
+git commit -m "Commitiar"
