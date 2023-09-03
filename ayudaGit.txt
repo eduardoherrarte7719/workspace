@@ -1,0 +1,42 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pwd
+
+cd 
+
+git init
+
+ls
+
+ls -a
+code .
+
+#mostrar el estado actual del repositorio
+git status
