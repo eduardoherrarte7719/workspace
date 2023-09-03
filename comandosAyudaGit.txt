@@ -1,0 +1,72 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+pwd
+
+cd 
+
+git init
+
+ls
+
+ls -a
+
+code .
+
+#mostrar el estado actual del repositorio
+git status
+
+#agregar archivo a seguir (tracked)
+git add nombreArvhivo.txt
+
+git commit -m "Commitiar"
+
+#abre code para colocar mensaje y ejecutar
+git commit
+
+#borrar archivo
+rm nombreArvhivo.txt
+
+git status
+git add nombreArvhivo.txt
+git status
+git commit -m "eliminando archivo"
+
+#borrar un archivo inmediatamente
+git rm nombreArvhivo.txt
+
+#restaurar ver la ayuda al ejecutar el comando
+git restore --staged nombreArvhivo.txt
+git status
+ls
+
+#restaurar definitivamente archivo ver la ayuda de comando
+git restore nombreArvhivo.txt
+git status
+ls
