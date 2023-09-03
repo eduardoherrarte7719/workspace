@@ -78,3 +78,21 @@ git commit -m "mensaje"
 #renombrar mas rapido y directo a staged
 git mv nombreArvhivo.txt nombreNuevo.txt
 git commit -m "mensaje"
+
+git status -s
+M roja ha sido modificado
+$$ no ha sido agregado para que Git le haga seguimiento
+
+git add .nombreArvhivo.txt
+M verde agregado a etapa stage
+
+A agregando archivo
+
+#letras verdes listas para comprometer
+
+#Ver en que rama
+git branch
+
+#crear una rama
+git checkout -b ramaB
+
